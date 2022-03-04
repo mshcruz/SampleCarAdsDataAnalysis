@@ -15,7 +15,7 @@ function makeRequest(imageURL) {
   const options = {
     method: 'post',
     contentType: 'application/json',
-    payload: {
+    payload: JSON.stringify({
       requests: [
         {
           image: {
@@ -38,7 +38,7 @@ function makeRequest(imageURL) {
           ],
         },
       ],
-    },
+    }),
   };
   const response = UrlFetchApp.fetch(visionApiUrl, options);
   return response.getContentText();
