@@ -37,7 +37,7 @@ function analyseAdsImages() {
     adsSampleDataSheetName
   );
   const urlRows = sheet
-    .getRange(2, urlColumnIndex, sheet.getLastRow() - 1, 1)
+    .getRange(2, urlColumnIndex + 1, sheet.getLastRow() - 1, 1)
     .getDisplayValues();
 
   for (const urlRow of urlRows) {
@@ -265,7 +265,7 @@ function resetDemoData() {
     .getRange(
       2,
       objectsColumnIndex + 1,
-      adsSampleDataSheet.getLastRow(),
+      adsSampleDataSheet.getLastRow() - 1,
       adsSampleDataSheet.getLastColumn() - objectsColumnIndex + 1
     )
     .clearContent();
