@@ -11,7 +11,7 @@ It is based on the presentation [“Marketing and Creative Insights from Unstruc
 2. Use the sheet "Ads Sample Data" to specify the URL of the creative and its performance.
 3. Click on the menu "Car Ads Analysis Demo" > "Authorize Script" to give permission for the script to run.
 4. Click on the menu "Car Ads Analysis Demo" > "Analyze image's performance".
-   - On the first run, the script will add for the [Google Vision API](https://cloud.google.com/vision/) key.
+   - On the first run, the script will ask for the [Google Vision API](https://cloud.google.com/vision/) key.
 5. The script will generate new sheets with the performance data breakdown by objects, labels and words found in the images.
 
 ## Merits
