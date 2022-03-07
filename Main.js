@@ -29,7 +29,7 @@ const textColumnIndex = 9;
  * Analyse the images in the sample sheet using the Google Vision API.
  * The result of the analysis include objects, labels and text related to each image.
  */
-function analyseAdsImages() {
+function analyzeAdsImages() {
   checkAPIKey();
   const imagesAnalysisDataRows = [];
 
@@ -125,6 +125,7 @@ function outputImagesPerformanceAnalyses() {
 
       const adWords = adData[textColumnIndex]
         .split(/\s/g)
+        .map((word) => processWord(word))
         .filter(String)
         .filter(onlyUnique);
       getEntityPerformance(adWords, wordsPerformance, adData);
@@ -297,7 +298,7 @@ function onOpen() {
     .createMenu('🚗 Car Ads Analysis Demo')
     .addItem('Authorize script', 'authorize')
     .addSeparator()
-    .addItem("Analyse images' performance", 'analyseImagesPerformance')
+    .addItem("Analyze images' performance", 'analyzeImagesPerformance')
     .addSeparator()
     .addItem('Reset demo data', 'resetDemoData')
     .addItem('Reset API key', 'resetAPIKey')
@@ -307,7 +308,7 @@ function onOpen() {
 /**
  * Get data about the performance of images used in ads.
  */
-function analyseImagesPerformance() {
-  analyseAdsImages();
+function analyzeImagesPerformance() {
+  analyzeAdsImages();
   outputImagesPerformanceAnalyses();
 }
