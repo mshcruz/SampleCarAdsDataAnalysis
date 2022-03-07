@@ -2,17 +2,17 @@
 
 ## Overview
 
-This project aims to analyze the impact of elements (objects, actions, words) found in creatives (ads images) and help guide the creation of new ads based on past performance.
-It is based on the presentation [“Marketing and Creative Insights from Unstructured Data: Cloud ML APIs (Cloud Next '19)”](https://www.youtube.com/watch?v=78kM5vyN4nk), but it uses simpler tools that could allow a quicker start for SMBs.
+This project aims to analyze the impact of features (objects, actions, words) found in creatives (ads images) and help guide the creation of new ads based on past performance.
+It is based on the presentation [“Marketing and Creative Insights from Unstructured Data: Cloud ML APIs (Cloud Next '19)”](https://www.youtube.com/watch?v=78kM5vyN4nk), but it uses simpler tools that could allow quicker proofs-of-concept and easier adoption by SMBs.
 
 ## How to Use
 
 1. Copy the [template spreadsheet](https://docs.google.com/spreadsheets/d/1KZ0W8KH-MZGry0-10BWzzYUBwr0DxeCcEowf5uXZDHY/copy).
-2. Use the sheet "Ads Sample Data" to specify the URL of the creative and its performance.
-3. Click on the menu "Car Ads Analysis Demo" > "Authorize Script" to give permission for the script to run.
-4. Click on the menu "Car Ads Analysis Demo" > "Analyze image's performance".
-   - On the first run, the script will ask for the [Google Vision API](https://cloud.google.com/vision/) key.
-5. The script will generate new sheets with the performance data breakdown by objects, labels and words found in the images.
+2. Use the sheet "Ads Sample Data" to specify the URL of the creative and its performance
+3. Click on the menu "Car Ads Analysis Demo" > "Authorize Script" to give permission for the script to run
+4. Click on the menu "Car Ads Analysis Demo" > "Analyze image's performance"
+   - On the first run, the script will ask for the [Google Vision API](https://cloud.google.com/vision/) key
+5. The script will generate new sheets with the performance data breakdown by objects, labels and words found in the images
 
 ## Merits
 
@@ -31,7 +31,7 @@ It is based on the presentation [“Marketing and Creative Insights from Unstruc
 - Consider combinations of features (i.e., multiple labels, objects) for more accuracy
 - Creative evaluation tool
   - Assign a score to a creative after comparing its features and features that generated high Impressions/CTR/Clicks in the past
-  - Suggest what elements (features) should be included in the creative (e.g., “natural environment”, “people” and “urban design”)
+  - Suggest what features should be included in the creative (e.g., “natural environment”, “people” and “urban design”)
 
 ## Data Sources
 
