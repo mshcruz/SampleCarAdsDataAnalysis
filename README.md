@@ -22,16 +22,16 @@ It is based on the presentation [“Marketing and Creative Insights from Unstruc
 ## Points of Attention
 
 - Bias due to past trends
-  -- Consider trend monitoring (e.g., Twitter) and the combination of features
+  - Consider trend monitoring (e.g., Twitter) and the combination of features
 - Limited scalability
-  -- Can scale with Dataflow, BigQuery, Data Studio (as in the original demo)
+  - Can scale with Dataflow, BigQuery, Data Studio (as in the original demo)
 
 ## Possible Extensions
 
 - Consider combinations of features (i.e., multiple labels, objects) for more accuracy
 - Creative evaluation tool
-  -- Assign a score to a creative after comparing its features and features that generated high Impressions/CTR/Clicks in the past
-  -- Suggest what elements (features) should be included in the creative (e.g., “natural environment”, “people” and “urban design”)
+  - Assign a score to a creative after comparing its features and features that generated high Impressions/CTR/Clicks in the past
+  - Suggest what elements (features) should be included in the creative (e.g., “natural environment”, “people” and “urban design”)
 
 ## Data Sources
 
