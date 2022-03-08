@@ -36,7 +36,7 @@ It is based on the presentation [“Marketing and Creative Insights from Unstruc
 ## Data Sources
 
 - [Google Data Studio’s “Ads Sample Data”](https://datastudio.google.com/c/u/0/reporting/0B_U5RNpwhcE6ckdmZEJ0ZDJXUnM/preview)
-- [Design Yout Way’s creative prints collection](https://www.designyourway.net/blog/inspiration/70-creative-print-ads-from-the-automotive-industry/)
+- [Design Your Way’s creative prints collection](https://www.designyourway.net/blog/inspiration/70-creative-print-ads-from-the-automotive-industry/)
 
 ## Tools and Systems
 
