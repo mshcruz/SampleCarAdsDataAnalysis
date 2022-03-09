@@ -5,9 +5,6 @@
  * These characteristics are retrieved using the Google Vision API: https://cloud.google.com/vision
  *
  * Sample ads data: https://docs.google.com/spreadsheets/d/1KZ0W8KH-MZGry0-10BWzzYUBwr0DxeCcEowf5uXZDHY/
- *
- * To Do:
- * - Remove stop words, stemming
  */
 
 // Settings
