@@ -1,7 +1,5 @@
 # Sample Car Ads Data Analysis Demo
 
-📽️ Demo video (2 min): https://www.loom.com/share/a438adb81c604977824f1d1ae2f48f6b
-
 This project aims to analyze the impact of features (objects, actions, words) found in creatives (ads images) and help guide the creation of new ads based on past performance.
 It is based on the presentation [“Marketing and Creative Insights from Unstructured Data: Cloud ML APIs (Cloud Next '19)”](https://www.youtube.com/watch?v=78kM5vyN4nk), but it uses simpler tools that could allow quicker proofs-of-concept and easier adoption by SMBs.
 
